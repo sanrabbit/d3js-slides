@@ -1,0 +1,2782 @@
+﻿{
+  "name": "d3api",
+  "children": [
+    {
+      "name": "d3 (core)",
+      "href": "https://github.com/mbostock/d3/wiki/Core",
+      "children": [
+        {
+          "name": "Selections",
+          "href": "https://github.com/mbostock/d3/wiki/Selections",
+          "children": [
+            {
+              "name": "d3.select",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_select"
+            },
+            {
+              "name": "d3.selectAll",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_selectAll"
+            },
+            {
+              "name": "selection.attr",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-attr"
+            },
+            {
+              "name": "selection.classed",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-classed"
+            },
+            {
+              "name": "selection.style",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-style"
+            },
+            {
+              "name": "selection.property",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-property"
+            },
+            {
+              "name": "selection.text",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-text"
+            },
+            {
+              "name": "selection.html",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-html"
+            },
+            {
+              "name": "selection.append",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-append"
+            },
+            {
+              "name": "selection.insert",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-insert"
+            },
+            {
+              "name": "selection.remove",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-remove"
+            },
+            {
+              "name": "selection.data",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-data"
+            },
+            {
+              "name": "selection.enter",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-enter"
+            },
+            {
+              "name": "selection.exit",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-exit"
+            },
+            {
+              "name": "selection.datum",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-datum"
+            },
+            {
+              "name": "selection.filter",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-filter"
+            },
+            {
+              "name": "selection.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-sort"
+            },
+            {
+              "name": "selection.order",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-order"
+            },
+            {
+              "name": "selection.on",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-on"
+            },
+            {
+              "name": "selection.transition",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-transition"
+            },
+            {
+              "name": "selection.interrupt",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-interrupt"
+            },
+            {
+              "name": "selection.each",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-each"
+            },
+            {
+              "name": "selection.call",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-call"
+            },
+            {
+              "name": "selection.empty",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-empty"
+            },
+            {
+              "name": "selection.node",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-node"
+            },
+            {
+              "name": "selection.size",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-size"
+            },
+            {
+              "name": "selection.select",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-select"
+            },
+            {
+              "name": "selection.selectAll",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-selectAll"
+            },
+            {
+              "name": "d3.selection",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_selection"
+            },
+            {
+              "name": "d3.event",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_event"
+            },
+            {
+              "name": "d3.mouse",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_mouse"
+            },
+            {
+              "name": "d3.touch",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_touch"
+            },
+            {
+              "name": "d3.touches",
+              "href": "https://github.com/mbostock/d3/wiki/Selections#wiki-d3_touches"
+            }
+          ]
+        },
+        {
+          "name": "Transitions",
+          "href": "https://github.com/mbostock/d3/wiki/Transitions",
+          "children": [
+            {
+              "name": "d3.transition",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_transition"
+            },
+            {
+              "name": "transition.delay",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-delay"
+            },
+            {
+              "name": "transition.duration",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-duration"
+            },
+            {
+              "name": "transition.ease",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-ease"
+            },
+            {
+              "name": "transition.attr",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-attr"
+            },
+            {
+              "name": "transition.attrTween",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-attrTween"
+            },
+            {
+              "name": "transition.style",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-style"
+            },
+            {
+              "name": "transition.styleTween",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-styleTween"
+            },
+            {
+              "name": "transition.text",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-text"
+            },
+            {
+              "name": "transition.tween",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-tween"
+            },
+            {
+              "name": "transition.select",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-select"
+            },
+            {
+              "name": "transition.selectAll",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-selectAll"
+            },
+            {
+              "name": "transition.filter",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-filter"
+            },
+            {
+              "name": "transition.transition",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-transition"
+            },
+            {
+              "name": "transition.remove",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-remove"
+            },
+            {
+              "name": "transition.empty",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-empty"
+            },
+            {
+              "name": "transition.node",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-node"
+            },
+            {
+              "name": "transition.size",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-size"
+            },
+            {
+              "name": "transition.each",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-each"
+            },
+            {
+              "name": "transition.call",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-call"
+            },
+            {
+              "name": "d3.ease",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_ease"
+            },
+            {
+              "name": "ease",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-_ease"
+            },
+            {
+              "name": "d3.timer",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_timer"
+            },
+            {
+              "name": "d3.timer.flush",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_timer_flush"
+            },
+            {
+              "name": "d3.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolate"
+            },
+            {
+              "name": "interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-_interpolate"
+            },
+            {
+              "name": "d3.interpolateNumber",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateNumber"
+            },
+            {
+              "name": "d3.interpolateRound",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateRound"
+            },
+            {
+              "name": "d3.interpolateString",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateString"
+            },
+            {
+              "name": "d3.interpolateRgb",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateRgb"
+            },
+            {
+              "name": "d3.interpolateHsl",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateHsl"
+            },
+            {
+              "name": "d3.interpolateLab",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateLab"
+            },
+            {
+              "name": "d3.interpolateHcl",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateHcl"
+            },
+            {
+              "name": "d3.interpolateArray",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateArray"
+            },
+            {
+              "name": "d3.interpolateObject",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateObject"
+            },
+            {
+              "name": "d3.interpolateTransform",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateTransform"
+            },
+            {
+              "name": "d3.interpolateZoom",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolateZoom"
+            },
+            {
+              "name": "d3.interpolators",
+              "href": "https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_interpolators"
+            }
+          ]
+        },
+        {
+          "name": "Working with Arrays",
+          "href": "https://github.com/mbostock/d3/wiki/Arrays",
+          "children": [
+            {
+              "name": "d3.ascending",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_ascending"
+            },
+            {
+              "name": "d3.descending",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_descending"
+            },
+            {
+              "name": "d3.min",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_min"
+            },
+            {
+              "name": "d3.max",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_max"
+            },
+            {
+              "name": "d3.extent",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_extent"
+            },
+            {
+              "name": "d3.sum",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_sum"
+            },
+            {
+              "name": "d3.mean",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_mean"
+            },
+            {
+              "name": "d3.median",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_median"
+            },
+            {
+              "name": "d3.quantile",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_quantile"
+            },
+            {
+              "name": "d3.bisect",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_bisect"
+            },
+            {
+              "name": "d3.bisectRight",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_bisectRight"
+            },
+            {
+              "name": "d3.bisectLeft",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_bisectLeft"
+            },
+            {
+              "name": "d3.bisector",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_bisector"
+            },
+            {
+              "name": "d3.shuffle",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_shuffle"
+            },
+            {
+              "name": "d3.permute",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_permute"
+            },
+            {
+              "name": "d3.zip",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_zip"
+            },
+            {
+              "name": "d3.transpose",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_transpose"
+            },
+            {
+              "name": "d3.pairs",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_pairs"
+            },
+            {
+              "name": "d3.keys",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_keys"
+            },
+            {
+              "name": "d3.values",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_values"
+            },
+            {
+              "name": "d3.entries",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_entries"
+            },
+            {
+              "name": "d3.merge",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_merge"
+            },
+            {
+              "name": "d3.range",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_range"
+            },
+            {
+              "name": "d3.nest",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_nest"
+            },
+            {
+              "name": "nest.key",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-nest_key"
+            },
+            {
+              "name": "nest.sortKeys",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-nest_sortKeys"
+            },
+            {
+              "name": "nest.sortValues",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-nest_sortValues"
+            },
+            {
+              "name": "nest.rollup",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-nest_rollup"
+            },
+            {
+              "name": "nest.map",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-nest_map"
+            },
+            {
+              "name": "nest.entries",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-nest_entries"
+            },
+            {
+              "name": "d3.map",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_map"
+            },
+            {
+              "name": "map.has",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_has"
+            },
+            {
+              "name": "map.get",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_get"
+            },
+            {
+              "name": "map.set",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_set"
+            },
+            {
+              "name": "map.remove",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_remove"
+            },
+            {
+              "name": "map.keys",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_keys"
+            },
+            {
+              "name": "map.values",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_values"
+            },
+            {
+              "name": "map.entries",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_entries"
+            },
+            {
+              "name": "map.forEach",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_forEach"
+            },
+            {
+              "name": "map.empty",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_empty"
+            },
+            {
+              "name": "map.size",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-map_size"
+            },
+            {
+              "name": "d3.set",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-d3_set"
+            },
+            {
+              "name": "set.has",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_has"
+            },
+            {
+              "name": "set.add",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_add"
+            },
+            {
+              "name": "set.remove",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_remove"
+            },
+            {
+              "name": "set.values",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_values"
+            },
+            {
+              "name": "set.forEach",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_forEach"
+            },
+            {
+              "name": "set.empty",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_empty"
+            },
+            {
+              "name": "set.size",
+              "href": "https://github.com/mbostock/d3/wiki/Arrays#wiki-set_size"
+            }
+          ]
+        },
+        {
+          "name": "Math",
+          "href": "https://github.com/mbostock/d3/wiki/Math",
+          "children": [
+            {
+              "name": "d3.random.normal",
+              "href": "https://github.com/mbostock/d3/wiki/Math#wiki-random_normal"
+            },
+            {
+              "name": "d3.random.logNormal",
+              "href": "https://github.com/mbostock/d3/wiki/Math#wiki-random_logNormal"
+            },
+            {
+              "name": "d3.random.bates",
+              "href": "https://github.com/mbostock/d3/wiki/Math#wiki-random_bates"
+            },
+            {
+              "name": "d3.random.irwinHall",
+              "href": "https://github.com/mbostock/d3/wiki/Math#wiki-random_irwinHall"
+            },
+            {
+              "name": "d3.transform",
+              "href": "https://github.com/mbostock/d3/wiki/Math#wiki-transform"
+            }
+          ]
+        },
+        {
+          "name": "Loading External Resources",
+          "href": "https://github.com/mbostock/d3/wiki/Requests",
+          "children": [
+            {
+              "name": "d3.xhr",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-d3_xhr"
+            },
+            {
+              "name": "xhr.header",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-header"
+            },
+            {
+              "name": "xhr.mimeType",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-mimeType"
+            },
+            {
+              "name": "xhr.response",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-response"
+            },
+            {
+              "name": "xhr.get",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-get"
+            },
+            {
+              "name": "xhr.post",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-post"
+            },
+            {
+              "name": "xhr.send",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-send"
+            },
+            {
+              "name": "xhr.abort",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-abort"
+            },
+            {
+              "name": "xhr.on",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-on"
+            },
+            {
+              "name": "d3.text",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-d3_text"
+            },
+            {
+              "name": "d3.json",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-d3_json"
+            },
+            {
+              "name": "d3.html",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-d3_html"
+            },
+            {
+              "name": "d3.xml",
+              "href": "https://github.com/mbostock/d3/wiki/Requests#wiki-d3_xml"
+            },
+            {
+              "name": "d3.csv",
+              "href": "https://github.com/mbostock/d3/wiki/CSV"
+            },
+            {
+              "name": "d3.tsv",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-tsv"
+            }
+          ]
+        },
+        {
+          "name": "String Formatting",
+          "href": "https://github.com/mbostock/d3/wiki/Formatting",
+          "children": [
+            {
+              "name": "d3.format",
+              "href": "https://github.com/mbostock/d3/wiki/Formatting#wiki-d3_format"
+            },
+            {
+              "name": "d3.formatPrefix",
+              "href": "https://github.com/mbostock/d3/wiki/Formatting#wiki-d3_formatPrefix"
+            },
+            {
+              "name": "SI prefix",
+              "href": "http://en.wikipedia.org/wiki/Metric_prefix"
+            },
+            {
+              "name": "d3.requote",
+              "href": "https://github.com/mbostock/d3/wiki/Formatting#wiki-d3_requote"
+            },
+            {
+              "name": "d3.round",
+              "href": "https://github.com/mbostock/d3/wiki/Formatting#wiki-d3_round"
+            }
+          ]
+        },
+        {
+          "name": "CSV Formatting (d3.csv)",
+          "href": "https://github.com/mbostock/d3/wiki/CSV",
+          "children": [
+            {
+              "name": "d3.csv",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-csv"
+            },
+            {
+              "name": "d3.csv.parse",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-parse"
+            },
+            {
+              "name": "d3.csv.parseRows",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-parseRows"
+            },
+            {
+              "name": "d3.csv.format",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-format"
+            },
+            {
+              "name": "d3.csv.formatRows",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-formatRows"
+            },
+            {
+              "name": "d3.tsv",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-tsv"
+            },
+            {
+              "name": "d3.tsv.parse",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-tsv_parse"
+            },
+            {
+              "name": "d3.tsv.parseRows",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-tsv_parseRows"
+            },
+            {
+              "name": "d3.tsv.format",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-tsv_format"
+            },
+            {
+              "name": "d3.tsv.formatRows",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-tsv_formatRows"
+            },
+            {
+              "name": "d3.dsv",
+              "href": "https://github.com/mbostock/d3/wiki/CSV#wiki-dsv"
+            }
+          ]
+        },
+        {
+          "name": "Localization",
+          "href": "https://github.com/mbostock/d3/wiki/Localization",
+          "children": [
+            {
+              "name": "d3.locale",
+              "href": "https://github.com/mbostock/d3/wiki/Localization#wiki-d3_locale"
+            },
+            {
+              "name": "locale.numberFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Localization#wiki-locale_numberFormat"
+            },
+            {
+              "name": "locale.timeFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Localization#wiki-locale_timeFormat"
+            }
+          ]
+        },
+        {
+          "name": "Colors",
+          "href": "https://github.com/mbostock/d3/wiki/Colors",
+          "children": [
+            {
+              "name": "d3.rgb",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-d3_rgb"
+            },
+            {
+              "name": "rgb.brighter",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-rgb_brighter"
+            },
+            {
+              "name": "rgb.darker",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-rgb_darker"
+            },
+            {
+              "name": "rgb.hsl",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-rgb_hsl"
+            },
+            {
+              "name": "rgb.toString",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-rgb_toString"
+            },
+            {
+              "name": "d3.hsl",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-d3_hsl"
+            },
+            {
+              "name": "hsl.brighter",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hsl_brighter"
+            },
+            {
+              "name": "hsl.darker",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hsl_darker"
+            },
+            {
+              "name": "hsl.rgb",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hsl_rgb"
+            },
+            {
+              "name": "hsl.toString",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hsl_toString"
+            },
+            {
+              "name": "d3.lab",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-d3_lab"
+            },
+            {
+              "name": "lab.brighter",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-lab_brighter"
+            },
+            {
+              "name": "lab.darker",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-lab_darker"
+            },
+            {
+              "name": "lab.rgb",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-lab_rgb"
+            },
+            {
+              "name": "lab.toString",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-lab_toString"
+            },
+            {
+              "name": "d3.hcl",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-d3_hcl"
+            },
+            {
+              "name": "hcl.brighter",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hcl_brighter"
+            },
+            {
+              "name": "hcl.darker",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hcl_darker"
+            },
+            {
+              "name": "hcl.rgb",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hcl_rgb"
+            },
+            {
+              "name": "hcl.toString",
+              "href": "https://github.com/mbostock/d3/wiki/Colors#wiki-hcl_toString"
+            }
+          ]
+        },
+        {
+          "name": "Namespaces",
+          "href": "https://github.com/mbostock/d3/wiki/Namespaces",
+          "children": [
+            {
+              "name": "d3.ns.prefix",
+              "href": "https://github.com/mbostock/d3/wiki/Namespaces#wiki-prefix"
+            },
+            {
+              "name": "d3.ns.qualify",
+              "href": "https://github.com/mbostock/d3/wiki/Namespaces#wiki-qualify"
+            }
+          ]
+        },
+        {
+          "name": "Internals",
+          "href": "https://github.com/mbostock/d3/wiki/Internals",
+          "children": [
+            {
+              "name": "d3.functor",
+              "href": "https://github.com/mbostock/d3/wiki/Internals#wiki-functor"
+            },
+            {
+              "name": "d3.rebind",
+              "href": "https://github.com/mbostock/d3/wiki/Internals#wiki-rebind"
+            },
+            {
+              "name": "d3.dispatch",
+              "href": "https://github.com/mbostock/d3/wiki/Internals#wiki-d3_dispatch"
+            },
+            {
+              "name": "dispatch.on",
+              "href": "https://github.com/mbostock/d3/wiki/Internals#wiki-dispatch_on"
+            },
+            {
+              "name": "dispatch.type",
+              "href": "https://github.com/mbostock/d3/wiki/Internals#wiki-_dispatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.scale (Scales)",
+      "href": "https://github.com/mbostock/d3/wiki/Scales",
+      "children": [
+        {
+          "name": "Quantitative",
+          "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantitative",
+          "children": [
+            {
+              "name": "d3.scale.linear",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear"
+            },
+            {
+              "name": "linear",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_linear"
+            },
+            {
+              "name": "linear.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_invert"
+            },
+            {
+              "name": "linear.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_domain"
+            },
+            {
+              "name": "linear.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_range"
+            },
+            {
+              "name": "linear.rangeRound",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_rangeRound"
+            },
+            {
+              "name": "linear.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_interpolate"
+            },
+            {
+              "name": "linear.clamp",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_clamp"
+            },
+            {
+              "name": "linear.nice",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_nice"
+            },
+            {
+              "name": "linear.ticks",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_ticks"
+            },
+            {
+              "name": "linear.tickFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_tickFormat"
+            },
+            {
+              "name": "linear.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_copy"
+            },
+            {
+              "name": "d3.scale.sqrt",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-sqrt"
+            },
+            {
+              "name": "d3.scale.pow",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow"
+            },
+            {
+              "name": "pow",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_pow"
+            },
+            {
+              "name": "pow.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_invert"
+            },
+            {
+              "name": "pow.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_domain"
+            },
+            {
+              "name": "pow.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_range"
+            },
+            {
+              "name": "pow.rangeRound",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_rangeRound"
+            },
+            {
+              "name": "pow.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_interpolate"
+            },
+            {
+              "name": "pow.clamp",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_clamp"
+            },
+            {
+              "name": "pow.nice",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_nice"
+            },
+            {
+              "name": "pow.ticks",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_ticks"
+            },
+            {
+              "name": "pow.tickFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_tickFormat"
+            },
+            {
+              "name": "pow.exponent",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_exponent"
+            },
+            {
+              "name": "pow.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-pow_copy"
+            },
+            {
+              "name": "d3.scale.log",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log"
+            },
+            {
+              "name": "log",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_log"
+            },
+            {
+              "name": "log.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_invert"
+            },
+            {
+              "name": "log.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_domain"
+            },
+            {
+              "name": "log.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_range"
+            },
+            {
+              "name": "log.rangeRound",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_rangeRound"
+            },
+            {
+              "name": "log.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_interpolate"
+            },
+            {
+              "name": "log.clamp",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_clamp"
+            },
+            {
+              "name": "log.nice",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_nice"
+            },
+            {
+              "name": "log.ticks",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_ticks"
+            },
+            {
+              "name": "log.tickFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_tickFormat"
+            },
+            {
+              "name": "log.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-log_copy"
+            },
+            {
+              "name": "d3.scale.quantize",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantize"
+            },
+            {
+              "name": "quantize",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_quantize"
+            },
+            {
+              "name": "quantize.invertExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantize_invertExtent"
+            },
+            {
+              "name": "quantize.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantize_domain"
+            },
+            {
+              "name": "quantize.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantize_range"
+            },
+            {
+              "name": "quantize.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantize_copy"
+            },
+            {
+              "name": "d3.scale.threshold",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-threshold"
+            },
+            {
+              "name": "threshold",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_threshold"
+            },
+            {
+              "name": "threshold.invertExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-threshold_invertExtent"
+            },
+            {
+              "name": "threshold.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-threshold_domain"
+            },
+            {
+              "name": "threshold.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-threshold_range"
+            },
+            {
+              "name": "threshold.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-threshold_copy"
+            },
+            {
+              "name": "d3.scale.quantile",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantile"
+            },
+            {
+              "name": "quantile",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_quantile"
+            },
+            {
+              "name": "quantile.invertExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantile_invertExtent"
+            },
+            {
+              "name": "quantile.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantile_domain"
+            },
+            {
+              "name": "quantile.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantile_range"
+            },
+            {
+              "name": "quantile.quantiles",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantile_quantiles"
+            },
+            {
+              "name": "quantile.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-quantile_copy"
+            },
+            {
+              "name": "d3.scale.identity",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity"
+            },
+            {
+              "name": "identity",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_identity"
+            },
+            {
+              "name": "identity.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-_identity"
+            },
+            {
+              "name": "identity.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity_domain"
+            },
+            {
+              "name": "identity.range",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity_domain"
+            },
+            {
+              "name": "identity.ticks",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity_ticks"
+            },
+            {
+              "name": "identity.tickFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity_tickFormat"
+            },
+            {
+              "name": "identity.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity_copy"
+            }
+          ]
+        },
+        {
+          "name": "Ordinal",
+          "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal",
+          "children": [
+            {
+              "name": "d3.scale.ordinal",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal"
+            },
+            {
+              "name": "ordinal",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-_ordinal"
+            },
+            {
+              "name": "ordinal.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_domain"
+            },
+            {
+              "name": "ordinal.range",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_range"
+            },
+            {
+              "name": "ordinal.rangePoints",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_rangePoints"
+            },
+            {
+              "name": "ordinal.rangeBands",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_rangeBands"
+            },
+            {
+              "name": "ordinal.rangeRoundBands",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_rangeRoundBands"
+            },
+            {
+              "name": "ordinal.rangeBand",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_rangeBand"
+            },
+            {
+              "name": "ordinal.rangeExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_rangeExtent"
+            },
+            {
+              "name": "ordinal.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_copy"
+            },
+            {
+              "name": "d3.scale.category10",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-category10"
+            },
+            {
+              "name": "d3.scale.category20",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-category20"
+            },
+            {
+              "name": "d3.scale.category20b",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-category20b"
+            },
+            {
+              "name": "d3.scale.category20c",
+              "href": "https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-category20c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.svg (SVG)",
+      "href": "https://github.com/mbostock/d3/wiki/SVG",
+      "children": [
+        {
+          "name": "Shapes",
+          "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes",
+          "children": [
+            {
+              "name": "d3.svg.line",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line"
+            },
+            {
+              "name": "line",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_line"
+            },
+            {
+              "name": "line.x",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_x"
+            },
+            {
+              "name": "line.y",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_y"
+            },
+            {
+              "name": "line.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_interpolate"
+            },
+            {
+              "name": "line.tension",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_tension"
+            },
+            {
+              "name": "line.defined",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_defined"
+            },
+            {
+              "name": "d3.svg.line.radial",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_radial"
+            },
+            {
+              "name": "line",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_line_radial"
+            },
+            {
+              "name": "line.radius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_radial_radius"
+            },
+            {
+              "name": "line.angle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_radial_angle"
+            },
+            {
+              "name": "line.defined",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-line_radial_defined"
+            },
+            {
+              "name": "d3.svg.area",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area"
+            },
+            {
+              "name": "area",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_area"
+            },
+            {
+              "name": "area.x",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_x"
+            },
+            {
+              "name": "area.x0",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_x0"
+            },
+            {
+              "name": "area.x1",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_x1"
+            },
+            {
+              "name": "area.y",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_y"
+            },
+            {
+              "name": "area.y0",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_y0"
+            },
+            {
+              "name": "area.y1",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_y1"
+            },
+            {
+              "name": "area.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_interpolate"
+            },
+            {
+              "name": "area.tension",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_tension"
+            },
+            {
+              "name": "area.defined",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_defined"
+            },
+            {
+              "name": "d3.svg.area.radial",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial"
+            },
+            {
+              "name": "area",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_area_radial"
+            },
+            {
+              "name": "area.radius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_radius"
+            },
+            {
+              "name": "area.innerRadius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_innerRadius"
+            },
+            {
+              "name": "area.outerRadius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_outerRadius"
+            },
+            {
+              "name": "area.angle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_angle"
+            },
+            {
+              "name": "area.startAngle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_startAngle"
+            },
+            {
+              "name": "area.endAngle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_endAngle"
+            },
+            {
+              "name": "area.defined",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-area_radial_defined"
+            },
+            {
+              "name": "d3.svg.arc",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-arc"
+            },
+            {
+              "name": "arc",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_arc"
+            },
+            {
+              "name": "arc.innerRadius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-arc_innerRadius"
+            },
+            {
+              "name": "arc.outerRadius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-arc_outerRadius"
+            },
+            {
+              "name": "arc.startAngle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-arc_startAngle"
+            },
+            {
+              "name": "arc.endAngle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-arc_endAngle"
+            },
+            {
+              "name": "arc.centroid",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-arc_centroid"
+            },
+            {
+              "name": "d3.svg.symbol",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-symbol"
+            },
+            {
+              "name": "symbol",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_symbol"
+            },
+            {
+              "name": "symbol.type",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-symbol_type"
+            },
+            {
+              "name": "symbol.size",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-symbol_size"
+            },
+            {
+              "name": "d3.svg.symbolTypes",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-symbolTypes"
+            },
+            {
+              "name": "d3.svg.chord",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-chord"
+            },
+            {
+              "name": "chord",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_chord"
+            },
+            {
+              "name": "chord.radius",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-chord_radius"
+            },
+            {
+              "name": "chord.startAngle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-chord_startAngle"
+            },
+            {
+              "name": "chord.endAngle",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-chord_endAngle"
+            },
+            {
+              "name": "chord.source",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-chord_source"
+            },
+            {
+              "name": "chord.target",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-chord_target"
+            },
+            {
+              "name": "d3.svg.diagonal",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-diagonal"
+            },
+            {
+              "name": "diagonal",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_diagonal"
+            },
+            {
+              "name": "diagonal.source",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-diagonal_source"
+            },
+            {
+              "name": "diagonal.target",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-diagonal_target"
+            },
+            {
+              "name": "diagonal.projection",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-diagonal_projection"
+            },
+            {
+              "name": "d3.svg.diagonal.radial",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-diagonal_radial"
+            },
+            {
+              "name": "diagonal",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Shapes#wiki-_diagonal_radial"
+            }
+          ]
+        },
+        {
+          "name": "Axes",
+          "href": "https://github.com/mbostock/d3/wiki/SVG-Axes",
+          "children": [
+            {
+              "name": "d3.svg.axis",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-axis"
+            },
+            {
+              "name": "axis",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-_axis"
+            },
+            {
+              "name": "axis.scale",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-scale"
+            },
+            {
+              "name": "axis.orient",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-orient"
+            },
+            {
+              "name": "axis.ticks",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-ticks"
+            },
+            {
+              "name": "axis.tickValues",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-tickValues"
+            },
+            {
+              "name": "axis.tickSize",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-tickSize"
+            },
+            {
+              "name": "axis.innerTickSize",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-innerTickSize"
+            },
+            {
+              "name": "axis.outerTickSize",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-outerTickSize"
+            },
+            {
+              "name": "axis.tickPadding",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-tickPadding"
+            },
+            {
+              "name": "axis.tickFormat",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Axes#wiki-tickFormat"
+            }
+          ]
+        },
+        {
+          "name": "Controls",
+          "href": "https://github.com/mbostock/d3/wiki/SVG-Controls",
+          "children": [
+            {
+              "name": "d3.svg.brush",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush"
+            },
+            {
+              "name": "brush",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-_brush"
+            },
+            {
+              "name": "brush.x",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_x"
+            },
+            {
+              "name": "brush.y",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_y"
+            },
+            {
+              "name": "brush.extent",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_extent"
+            },
+            {
+              "name": "brush.clear",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_clear"
+            },
+            {
+              "name": "brush.empty",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_empty"
+            },
+            {
+              "name": "brush.on",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_on"
+            },
+            {
+              "name": "brush.event",
+              "href": "https://github.com/mbostock/d3/wiki/SVG-Controls#wiki-brush_event"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.time (Time)",
+      "href": "https://github.com/mbostock/d3/wiki/Time",
+      "children": [
+        {
+          "name": "Time Formatting",
+          "href": "https://github.com/mbostock/d3/wiki/Time-Formatting",
+          "children": [
+            {
+              "name": "d3.time.format",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-format"
+            },
+            {
+              "name": "format",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-_format"
+            },
+            {
+              "name": "format.parse",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-parse"
+            },
+            {
+              "name": "d3.time.format.multi",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-format_multi"
+            },
+            {
+              "name": "d3.time.format.utc",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-format_utc"
+            },
+            {
+              "name": "d3.time.format.iso",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-format_iso"
+            }
+          ]
+        },
+        {
+          "name": "Time Scales",
+          "href": "https://github.com/mbostock/d3/wiki/Time-Scales",
+          "children": [
+            {
+              "name": "d3.time.scale",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-scale"
+            },
+            {
+              "name": "scale",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-_scale"
+            },
+            {
+              "name": "scale.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-invert"
+            },
+            {
+              "name": "scale.domain",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-domain"
+            },
+            {
+              "name": "scale.nice",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-nice"
+            },
+            {
+              "name": "scale.range",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-range"
+            },
+            {
+              "name": "scale.rangeRound",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-rangeRound"
+            },
+            {
+              "name": "scale.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-interpolate"
+            },
+            {
+              "name": "scale.clamp",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-clamp"
+            },
+            {
+              "name": "scale.ticks",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-ticks"
+            },
+            {
+              "name": "scale.tickFormat",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-tickFormat"
+            },
+            {
+              "name": "scale.copy",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Scales#wiki-copy"
+            }
+          ]
+        },
+        {
+          "name": "Time Intervals",
+          "href": "https://github.com/mbostock/d3/wiki/Time-Intervals",
+          "children": [
+            {
+              "name": "d3.time.interval",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval"
+            },
+            {
+              "name": "interval",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-_interval"
+            },
+            {
+              "name": "interval.range",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval_range"
+            },
+            {
+              "name": "interval.floor",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval_floor"
+            },
+            {
+              "name": "interval.round",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval_round"
+            },
+            {
+              "name": "interval.ceil",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval_ceil"
+            },
+            {
+              "name": "interval.offset",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval_offset"
+            },
+            {
+              "name": "interval.utc",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-interval_utc"
+            },
+            {
+              "name": "d3.time.day",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-day"
+            },
+            {
+              "name": "d3.time.days",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-day"
+            },
+            {
+              "name": "d3.time.dayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-dayOfYear"
+            },
+            {
+              "name": "d3.time.hour",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-hour"
+            },
+            {
+              "name": "d3.time.hours",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-hours"
+            },
+            {
+              "name": "d3.time.minute",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-minute"
+            },
+            {
+              "name": "d3.time.minutes",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-minutes"
+            },
+            {
+              "name": "d3.time.month",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-month"
+            },
+            {
+              "name": "d3.time.months",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-months"
+            },
+            {
+              "name": "d3.time.second",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-second"
+            },
+            {
+              "name": "d3.time.seconds",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-seconds"
+            },
+            {
+              "name": "d3.time.sunday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-sunday"
+            },
+            {
+              "name": "d3.time.sundays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-sundays"
+            },
+            {
+              "name": "d3.time.sundayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-sundayOfYear"
+            },
+            {
+              "name": "d3.time.monday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-monday"
+            },
+            {
+              "name": "d3.time.mondays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-mondays"
+            },
+            {
+              "name": "d3.time.mondayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-mondayOfYear"
+            },
+            {
+              "name": "d3.time.tuesday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-tuesday"
+            },
+            {
+              "name": "d3.time.tuesdays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-tuesdays"
+            },
+            {
+              "name": "d3.time.tuesdayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-tuesdayOfYear"
+            },
+            {
+              "name": "d3.time.wednesday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-wednesday"
+            },
+            {
+              "name": "d3.time.wednesdays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-wednesdays"
+            },
+            {
+              "name": "d3.time.wednesdayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-tuesdayOfYear"
+            },
+            {
+              "name": "d3.time.thursday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-thursday"
+            },
+            {
+              "name": "d3.time.thursdays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-thursdays"
+            },
+            {
+              "name": "d3.time.thursdayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-thursdayOfYear"
+            },
+            {
+              "name": "d3.time.friday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-friday"
+            },
+            {
+              "name": "d3.time.fridays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-fridays"
+            },
+            {
+              "name": "d3.time.fridayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-fridayOfYear"
+            },
+            {
+              "name": "d3.time.saturday",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-saturday"
+            },
+            {
+              "name": "d3.time.saturdays",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-saturdays"
+            },
+            {
+              "name": "d3.time.saturdayOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-saturdayOfYear"
+            },
+            {
+              "name": "d3.time.week",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-week"
+            },
+            {
+              "name": "d3.time.weeks",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-weeks"
+            },
+            {
+              "name": "d3.time.weekOfYear",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-weekOfYear"
+            },
+            {
+              "name": "d3.time.year",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-year"
+            },
+            {
+              "name": "d3.time.years",
+              "href": "https://github.com/mbostock/d3/wiki/Time-Intervals#wiki-years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.layout (Layouts)",
+      "href": "https://github.com/mbostock/d3/wiki/Layouts",
+      "children": [
+        {
+          "name": "Bundle",
+          "href": "https://github.com/mbostock/d3/wiki/Bundle-Layout",
+          "children": [
+            {
+              "name": "d3.layout.bundle",
+              "href": "https://github.com/mbostock/d3/wiki/Bundle-Layout#wiki-bundle"
+            },
+            {
+              "name": "bundle",
+              "href": "https://github.com/mbostock/d3/wiki/Bundle-Layout#wiki-_bundle"
+            }
+          ]
+        },
+        {
+          "name": "Chord",
+          "href": "https://github.com/mbostock/d3/wiki/Chord-Layout",
+          "children": [
+            {
+              "name": "d3.layout.chord",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-chord"
+            },
+            {
+              "name": "chord.matrix",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-matrix"
+            },
+            {
+              "name": "chord.padding",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-padding"
+            },
+            {
+              "name": "chord.sortGroups",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-sortGroups"
+            },
+            {
+              "name": "chord.sortSubgroups",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-sortSubgroups"
+            },
+            {
+              "name": "chord.sortChords",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-sortChords"
+            },
+            {
+              "name": "chord.chords",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-chords"
+            },
+            {
+              "name": "chord.groups",
+              "href": "https://github.com/mbostock/d3/wiki/Chord-Layout#wiki-groups"
+            }
+          ]
+        },
+        {
+          "name": "Cluster",
+          "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout",
+          "children": [
+            {
+              "name": "d3.layout.cluster",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-cluster"
+            },
+            {
+              "name": "cluster",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-_cluster"
+            },
+            {
+              "name": "cluster.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-nodes"
+            },
+            {
+              "name": "cluster.links",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-links"
+            },
+            {
+              "name": "cluster.children",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-children"
+            },
+            {
+              "name": "cluster.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-sort"
+            },
+            {
+              "name": "cluster.separation",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-separation"
+            },
+            {
+              "name": "cluster.size",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-size"
+            },
+            {
+              "name": "cluster.nodeSize",
+              "href": "https://github.com/mbostock/d3/wiki/Cluster-Layout#wiki-nodeSize"
+            }
+          ]
+        },
+        {
+          "name": "Force",
+          "href": "https://github.com/mbostock/d3/wiki/Force-Layout",
+          "children": [
+            {
+              "name": "d3.layout.force",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-force"
+            },
+            {
+              "name": "force.on",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-on"
+            },
+            {
+              "name": "force.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-nodes"
+            },
+            {
+              "name": "force.links",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-links"
+            },
+            {
+              "name": "force.size",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-size"
+            },
+            {
+              "name": "force.linkDistance",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-linkDistance"
+            },
+            {
+              "name": "force.linkStrength",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-linkStrength"
+            },
+            {
+              "name": "force.friction",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-friction"
+            },
+            {
+              "name": "force.charge",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-charge"
+            },
+            {
+              "name": "force.chargeDistance",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-chargeDistance"
+            },
+            {
+              "name": "force.gravity",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-gravity"
+            },
+            {
+              "name": "force.theta",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-theta"
+            },
+            {
+              "name": "force.start",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-start"
+            },
+            {
+              "name": "force.resume",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-resume"
+            },
+            {
+              "name": "force.stop",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-stop"
+            },
+            {
+              "name": "force.alpha",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-alpha"
+            },
+            {
+              "name": "force.tick",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-tick"
+            },
+            {
+              "name": "force.drag",
+              "href": "https://github.com/mbostock/d3/wiki/Force-Layout#wiki-drag"
+            }
+          ]
+        },
+        {
+          "name": "Hierarchy",
+          "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout",
+          "children": [
+            {
+              "name": "d3.layout.hierarchy",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-hierarchy"
+            },
+            {
+              "name": "hierarchy",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-_hierarchy"
+            },
+            {
+              "name": "hierarchy.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-nodes"
+            },
+            {
+              "name": "hierarchy.links",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-links"
+            },
+            {
+              "name": "hierarchy.children",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-children"
+            },
+            {
+              "name": "hierarchy.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-sort"
+            },
+            {
+              "name": "hierarchy.value",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-value"
+            },
+            {
+              "name": "hierarchy.revalue",
+              "href": "https://github.com/mbostock/d3/wiki/Hierarchy-Layout#wiki-revalue"
+            }
+          ]
+        },
+        {
+          "name": "Histogram",
+          "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout",
+          "children": [
+            {
+              "name": "d3.layout.histogram",
+              "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout#wiki-histogram"
+            },
+            {
+              "name": "histogram",
+              "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout#wiki-_histogram"
+            },
+            {
+              "name": "histogram.value",
+              "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout#wiki-value"
+            },
+            {
+              "name": "histogram.range",
+              "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout#wiki-range"
+            },
+            {
+              "name": "histogram.bins",
+              "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout#wiki-bins"
+            },
+            {
+              "name": "histogram.frequency",
+              "href": "https://github.com/mbostock/d3/wiki/Histogram-Layout#wiki-frequency"
+            }
+          ]
+        },
+        {
+          "name": "Pack",
+          "href": "https://github.com/mbostock/d3/wiki/Pack-Layout",
+          "children": [
+            {
+              "name": "d3.layout.pack",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-pack"
+            },
+            {
+              "name": "pack",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-_pack"
+            },
+            {
+              "name": "pack.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-nodes"
+            },
+            {
+              "name": "pack.links",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-links"
+            },
+            {
+              "name": "pack.children",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-children"
+            },
+            {
+              "name": "pack.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-sort"
+            },
+            {
+              "name": "pack.value",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-value"
+            },
+            {
+              "name": "pack.size",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-size"
+            },
+            {
+              "name": "pack.radius",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-radius"
+            },
+            {
+              "name": "pack.padding",
+              "href": "https://github.com/mbostock/d3/wiki/Pack-Layout#wiki-padding"
+            }
+          ]
+        },
+        {
+          "name": "Partition",
+          "href": "https://github.com/mbostock/d3/wiki/Partition-Layout",
+          "children": [
+            {
+              "name": "d3.layout.partition",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-partition"
+            },
+            {
+              "name": "partition",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-_partition"
+            },
+            {
+              "name": "partition.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-nodes"
+            },
+            {
+              "name": "partition.links",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-links"
+            },
+            {
+              "name": "partition.children",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-children"
+            },
+            {
+              "name": "partition.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-sort"
+            },
+            {
+              "name": "partition.value",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-value"
+            },
+            {
+              "name": "partition.size",
+              "href": "https://github.com/mbostock/d3/wiki/Partition-Layout#wiki-size"
+            }
+          ]
+        },
+        {
+          "name": "Pie",
+          "href": "https://github.com/mbostock/d3/wiki/Pie-Layout",
+          "children": [
+            {
+              "name": "d3.layout.pie",
+              "href": "https://github.com/mbostock/d3/wiki/Pie-Layout#wiki-pie"
+            },
+            {
+              "name": "pie",
+              "href": "https://github.com/mbostock/d3/wiki/Pie-Layout#wiki-_pie"
+            },
+            {
+              "name": "pie.value",
+              "href": "https://github.com/mbostock/d3/wiki/Pie-Layout#wiki-value"
+            },
+            {
+              "name": "pie.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Pie-Layout#wiki-sort"
+            },
+            {
+              "name": "pie.startAngle",
+              "href": "https://github.com/mbostock/d3/wiki/Pie-Layout#wiki-startAngle"
+            },
+            {
+              "name": "pie.endAngle",
+              "href": "https://github.com/mbostock/d3/wiki/Pie-Layout#wiki-endAngle"
+            }
+          ]
+        },
+        {
+          "name": "Stack",
+          "href": "https://github.com/mbostock/d3/wiki/Stack-Layout",
+          "children": [
+            {
+              "name": "d3.layout.stack",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-stack"
+            },
+            {
+              "name": "stack",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-_stack"
+            },
+            {
+              "name": "stack.values",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-values"
+            },
+            {
+              "name": "stack.order",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-order"
+            },
+            {
+              "name": "stack.offset",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-offset"
+            },
+            {
+              "name": "stack.x",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-x"
+            },
+            {
+              "name": "stack.y",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-y"
+            },
+            {
+              "name": "stack.out",
+              "href": "https://github.com/mbostock/d3/wiki/Stack-Layout#wiki-out"
+            }
+          ]
+        },
+        {
+          "name": "Tree",
+          "href": "https://github.com/mbostock/d3/wiki/Tree-Layout",
+          "children": [
+            {
+              "name": "d3.layout.tree",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-tree"
+            },
+            {
+              "name": "tree",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-_tree"
+            },
+            {
+              "name": "tree.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-nodes"
+            },
+            {
+              "name": "tree.links",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-links"
+            },
+            {
+              "name": "tree.children",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-children"
+            },
+            {
+              "name": "tree.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-sort"
+            },
+            {
+              "name": "tree.separation",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-separation"
+            },
+            {
+              "name": "tree.size",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-size"
+            },
+            {
+              "name": "tree.nodeSize",
+              "href": "https://github.com/mbostock/d3/wiki/Tree-Layout#wiki-nodeSize"
+            }
+          ]
+        },
+        {
+          "name": "Treemap",
+          "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout",
+          "children": [
+            {
+              "name": "d3.layout.treemap",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-treemap"
+            },
+            {
+              "name": "treemap",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-_treemap"
+            },
+            {
+              "name": "treemap.nodes",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-nodes"
+            },
+            {
+              "name": "treemap.links",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-links"
+            },
+            {
+              "name": "treemap.children",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-children"
+            },
+            {
+              "name": "treemap.sort",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-sort"
+            },
+            {
+              "name": "treemap.value",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-value"
+            },
+            {
+              "name": "treemap.size",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-size"
+            },
+            {
+              "name": "treemap.padding",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-padding"
+            },
+            {
+              "name": "treemap.round",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-round"
+            },
+            {
+              "name": "treemap.sticky",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-sticky"
+            },
+            {
+              "name": "treemap.mode",
+              "href": "https://github.com/mbostock/d3/wiki/Treemap-Layout#wiki-mode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.geo (Geography)",
+      "href": "https://github.com/mbostock/d3/wiki/Geo",
+      "children": [
+        {
+          "name": "Paths",
+          "href": "https://github.com/mbostock/d3/wiki/Geo-Paths",
+          "children": [
+            {
+              "name": "d3.geo.path",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path"
+            },
+            {
+              "name": "path",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-_path"
+            },
+            {
+              "name": "path.projection",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path_projection"
+            },
+            {
+              "name": "path.context",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path_context"
+            },
+            {
+              "name": "path.pointRadius",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path_pointRadius"
+            },
+            {
+              "name": "path.area",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path_area"
+            },
+            {
+              "name": "path.centroid",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path_centroid"
+            },
+            {
+              "name": "path.bounds",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-path_bounds"
+            },
+            {
+              "name": "d3.geo.graticule",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule"
+            },
+            {
+              "name": "graticule",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-_graticule"
+            },
+            {
+              "name": "graticule.lines",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_lines"
+            },
+            {
+              "name": "graticule.outline",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_outline"
+            },
+            {
+              "name": "graticule.extent",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_extent"
+            },
+            {
+              "name": "graticule.majorExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_majorExtent"
+            },
+            {
+              "name": "graticule.minorExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_minorExtent"
+            },
+            {
+              "name": "graticule.step",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_step"
+            },
+            {
+              "name": "graticule.majorStep",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_majorStep"
+            },
+            {
+              "name": "graticule.minorStep",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_minorStep"
+            },
+            {
+              "name": "graticule.precision",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-graticule_precision"
+            },
+            {
+              "name": "d3.geo.circle",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-circle"
+            },
+            {
+              "name": "circle",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-_circle"
+            },
+            {
+              "name": "circle.origin",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-circle_origin"
+            },
+            {
+              "name": "circle.angle",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-circle_angle"
+            },
+            {
+              "name": "circle.precision",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-circle_precision"
+            },
+            {
+              "name": "d3.geo.area",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-area"
+            },
+            {
+              "name": "d3.geo.bounds",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-bounds"
+            },
+            {
+              "name": "d3.geo.centroid",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-centroid"
+            },
+            {
+              "name": "d3.geo.distance",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-distance"
+            },
+            {
+              "name": "d3.geo.interpolate",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-interpolate"
+            },
+            {
+              "name": "d3.geo.length",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-length"
+            },
+            {
+              "name": "d3.geo.rotation",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-rotation"
+            },
+            {
+              "name": "rotation",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-_rotation"
+            },
+            {
+              "name": "rotation.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Paths#wiki-rotation_invert"
+            }
+          ]
+        },
+        {
+          "name": "Projections",
+          "href": "https://github.com/mbostock/d3/wiki/Geo-Projections",
+          "children": [
+            {
+              "name": "d3.geo.projection",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-projection"
+            },
+            {
+              "name": "projection",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-_projection"
+            },
+            {
+              "name": "projection.invert",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-invert"
+            },
+            {
+              "name": "projection.rotate",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-rotate"
+            },
+            {
+              "name": "projection.center",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-center"
+            },
+            {
+              "name": "projection.translate",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-translate"
+            },
+            {
+              "name": "projection.scale",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-scale"
+            },
+            {
+              "name": "projection.clipAngle",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-clipAngle"
+            },
+            {
+              "name": "projection.clipExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-clipExtent"
+            },
+            {
+              "name": "projection.precision",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-precision"
+            },
+            {
+              "name": "projection.stream",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-stream"
+            },
+            {
+              "name": "d3.geo.projectionMutator",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-projectionMutator"
+            },
+            {
+              "name": "d3.geo.albers",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-albers"
+            },
+            {
+              "name": "albers.parallels",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-albers_parallels"
+            },
+            {
+              "name": "d3.geo.albersUsa",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-albersUsa"
+            },
+            {
+              "name": "d3.geo.azimuthalEqualArea",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-azimuthalEqualArea"
+            },
+            {
+              "name": "d3.geo.azimuthalEquidistant",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-azimuthalEquidistant"
+            },
+            {
+              "name": "d3.geo.conicConformal",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-conicConformal"
+            },
+            {
+              "name": "d3.geo.conicEquidistant",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-conicEquidistant"
+            },
+            {
+              "name": "d3.geo.conicEqualArea",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-conicEqualArea"
+            },
+            {
+              "name": "d3.geo.equirectangular",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-equirectangular"
+            },
+            {
+              "name": "d3.geo.gnomonic",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-gnomonic"
+            },
+            {
+              "name": "d3.geo.mercator",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-mercator"
+            },
+            {
+              "name": "d3.geo.orthographic",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-orthographic"
+            },
+            {
+              "name": "d3.geo.stereographic",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-stereographic"
+            },
+            {
+              "name": "d3.geo.azimuthalEqualArea.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-azimuthalEqualArea_raw"
+            },
+            {
+              "name": "d3.geo.azimuthalEquidistant.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-azimuthalEquidistant_raw"
+            },
+            {
+              "name": "d3.geo.conicConformal.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-conicConformal_raw"
+            },
+            {
+              "name": "d3.geo.conicEquidistant.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-conicEquidistant_raw"
+            },
+            {
+              "name": "d3.geo.conicEqualArea.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-conicEqualArea_raw"
+            },
+            {
+              "name": "d3.geo.equirectangular.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-equirectangular_raw"
+            },
+            {
+              "name": "d3.geo.gnomonic.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-gnomonic_raw"
+            },
+            {
+              "name": "d3.geo.mercator.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-mercator_raw"
+            },
+            {
+              "name": "d3.geo.orthographic.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-orthographic_raw"
+            },
+            {
+              "name": "d3.geo.stereographic.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-stereographic_raw"
+            },
+            {
+              "name": "d3.geo.transverseMercator.raw",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Projections#wiki-transverseMercator_raw"
+            }
+          ]
+        },
+        {
+          "name": "Streams",
+          "href": "https://github.com/mbostock/d3/wiki/Geo-Streams",
+          "children": [
+            {
+              "name": "d3.geo.stream",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream"
+            },
+            {
+              "name": "stream.point",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream_point"
+            },
+            {
+              "name": "stream.lineStart",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream_lineStart"
+            },
+            {
+              "name": "stream.lineEnd",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream_lineEnd"
+            },
+            {
+              "name": "stream.polygonStart",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream_polygonStart"
+            },
+            {
+              "name": "stream.polygonEnd",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream_polygonEnd"
+            },
+            {
+              "name": "stream.sphere",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-stream_sphere"
+            },
+            {
+              "name": "d3.geo.transform",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-transform"
+            },
+            {
+              "name": "transform.stream",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-transform_stream"
+            },
+            {
+              "name": "d3.geo.clipExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-clipExtent"
+            },
+            {
+              "name": "clipExtent.extent",
+              "href": "https://github.com/mbostock/d3/wiki/Geo-Streams#wiki-clipExtent_extent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.geom (Geometry)",
+      "href": "https://github.com/mbostock/d3/wiki/Geometry",
+      "children": [
+        {
+          "name": "Voronoi",
+          "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom",
+          "children": [
+            {
+              "name": "d3.geom.voronoi",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-voronoi"
+            },
+            {
+              "name": "voronoi",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-_voronoi"
+            },
+            {
+              "name": "voronoi.x",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-x"
+            },
+            {
+              "name": "voronoi.y",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-y"
+            },
+            {
+              "name": "voronoi.clipExent",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-clipExtent"
+            },
+            {
+              "name": "voronoi.links",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-links"
+            },
+            {
+              "name": "voronoi.triangles",
+              "href": "https://github.com/mbostock/d3/wiki/Voronoi-Geom#wiki-triangles"
+            }
+          ]
+        },
+        {
+          "name": "Quadtree",
+          "href": "https://github.com/mbostock/d3/wiki/Quadtree-Geom",
+          "children": [
+            {
+              "name": "d3.geom.quadtree",
+              "href": "https://github.com/mbostock/d3/wiki/Quadtree-Geom#wiki-quadtree"
+            },
+            {
+              "name": "quadtree.add",
+              "href": "https://github.com/mbostock/d3/wiki/Quadtree-Geom#wiki-add"
+            },
+            {
+              "name": "quadtree.visit",
+              "href": "https://github.com/mbostock/d3/wiki/Quadtree-Geom#wiki-visit"
+            }
+          ]
+        },
+        {
+          "name": "Polygon",
+          "href": "https://github.com/mbostock/d3/wiki/Polygon-Geom",
+          "children": [
+            {
+              "name": "d3.geom.polygon",
+              "href": "https://github.com/mbostock/d3/wiki/Polygon-Geom#wiki-polygon"
+            },
+            {
+              "name": "polygon.area",
+              "href": "https://github.com/mbostock/d3/wiki/Polygon-Geom#wiki-area"
+            },
+            {
+              "name": "polygon.centroid",
+              "href": "https://github.com/mbostock/d3/wiki/Polygon-Geom#wiki-centroid"
+            },
+            {
+              "name": "polygon.clip",
+              "href": "https://github.com/mbostock/d3/wiki/Polygon-Geom#wiki-clip"
+            }
+          ]
+        },
+        {
+          "name": "Hull",
+          "href": "https://github.com/mbostock/d3/wiki/Hull-Geom",
+          "children": [
+            {
+              "name": "d3.geom.hull",
+              "href": "https://github.com/mbostock/d3/wiki/Hull-Geom#wiki-hull"
+            },
+            {
+              "name": "hull",
+              "href": "https://github.com/mbostock/d3/wiki/Hull-Geom#wiki-_hull"
+            },
+            {
+              "name": "hull.x",
+              "href": "https://github.com/mbostock/d3/wiki/Hull-Geom#wiki-x"
+            },
+            {
+              "name": "hull.y",
+              "href": "https://github.com/mbostock/d3/wiki/Hull-Geom#wiki-y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d3.behavior (Behaviors)",
+      "href": "https://github.com/mbostock/d3/wiki/Behaviors",
+      "children": [
+        {
+          "name": "Drag",
+          "href": "https://github.com/mbostock/d3/wiki/Drag-Behavior",
+          "children": [
+            {
+              "name": "d3.behavior.drag",
+              "href": "https://github.com/mbostock/d3/wiki/Drag-Behavior#wiki-drag"
+            },
+            {
+              "name": "drag.origin",
+              "href": "https://github.com/mbostock/d3/wiki/Drag-Behavior#wiki-origin"
+            },
+            {
+              "name": "drag.on",
+              "href": "https://github.com/mbostock/d3/wiki/Drag-Behavior#wiki-on"
+            }
+          ]
+        },
+        {
+          "name": "Zoom",
+          "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior",
+          "children": [
+            {
+              "name": "d3.behavior.zoom",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-zoom"
+            },
+            {
+              "name": "zoom",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-_zoom"
+            },
+            {
+              "name": "zoom.scale",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-scale"
+            },
+            {
+              "name": "zoom.translate",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-translate"
+            },
+            {
+              "name": "zoom.scaleExtent",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-scaleExtent"
+            },
+            {
+              "name": "zoom.center",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-center"
+            },
+            {
+              "name": "zoom.size",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-size"
+            },
+            {
+              "name": "zoom.x",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-x"
+            },
+            {
+              "name": "zoom.y",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-y"
+            },
+            {
+              "name": "zoom.on",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-on"
+            },
+            {
+              "name": "zoom.event",
+              "href": "https://github.com/mbostock/d3/wiki/Zoom-Behavior#wiki-event"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "href": "https://github.com/mbostock/d3/wiki/API-Reference"
+}
