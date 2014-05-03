@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>D3.js - Data-Driven Documents</title>
+    <link href="src/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link id="prettify-link" href="src/prettify/prettify.css" rel="stylesheet" disabled />
+    <link href="styles/presentation.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="styles/common.css" rel="stylesheet" type="text/css" media="screen" />
+    <link class="theme" href="styles/default.css" rel="stylesheet" type="text/css" media="screen" />
+    <style>
+        html {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: none;">
+        <span id="left-init-key" class="key">&rarr;</span>
+    </div>
+    <div id="flex-container">
+        <div class="slides">
+            <div id="presentation-counter">Loading...</div>
+            <div class="slide" id="landing-slide">
+                <section class="middle">
+
+                    <hgroup>
+                        <h1>D3.js
+                        </h1>
+                        <h2>Data-Driven Documents
+                        </h2>
+                    </hgroup>
+                    <p>Why/What/How：数据可视化、D3.js、例子、API、优缺点</p>
+                </section>
+            </div>
+            <div class="slide" id="table-of-contents">
+                <header>
+                    <h1>今天要讲的：</h1>
+                </header>
+                <section>
+                    <ul id="toc-list">
+                    </ul>
+                </section>
+            </div>
+            <div class="slide transitionSlide" id="datav-title">
+                <section class="middle">
+                    <h2>Why D3.js / 数据可视化</h2>
+                    <p>数据可视化主要旨在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <img src="images/d3js_64.png" />
+                </section>
+            </div>
+            <div class="slide" id="datav-weather">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>天气趋势(MIUI)</h1>
+                </header>
+                <section>
+                    <div class="center" style="margin-top: 50px;">
+                        <img src="images/datav/weather.png" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="datav-pm25">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>空气质量(MIUI)</h1>
+                </header>
+                <section>
+                    <div class="center" style="margin-top: 25px;">
+                        <img src="images/datav/pm2.5.png" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="datav-sd">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>SD卡容量(MIUI)</h1>
+                </header>
+                <section>
+                    <div class="center" style="margin-top: 50px;">
+                        <img src="images/datav/sd.png" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="datav-yuebao">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>余额保收益率(支付宝)</h1>
+                </header>
+                <section>
+                    <div class="center" style="margin-top: 50px;">
+                        <img src="images/datav/yuebao.png" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="datav-zhangdan">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>月帐单(支付宝)</h1>
+                </header>
+                <section>
+                    <div class="center">
+                        <img src="images/datav/zhangdan.png" style="height: 550px;" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="datav-webstatistics">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>站点监控/统计</h1>
+                </header>
+                <section>
+                    <div class="center">
+                        <img src="images/datav/webstatistics.png" style="height: 570px;" />
+                    </div>
+                </section>
+            </div>
+            <!--
+            <div class="slide" id="datav-svn">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>SVN提交统计(TortoiseSVN)</h1>
+                </header>
+                <section>
+                    <div class="center" style="margin-top: 50px;">
+                        <img id="datav_svn_image" data-no="0" src="images/datav/zhangdan.png" />
+                        <div style="display: inline-block;">
+                            <i class="fa fa-chevron-circle-left fa-3x" onclick="datav_svn_prev()"></i>
+                            <br />
+                            <i class="fa fa-chevron-circle-right fa-3x" onclick="datav_svn_next()"></i>
+                        </div>
+                    </div>
+                </section>
+                <script defer>
+                    var datav_svn_images = [
+                        'images/datav/zhangdan.png',
+                        'images/datav/pm2.5.png',
+                        'images/datav/sd.png',
+                        'images/datav/weather.png',
+                        'images/datav/yuebao.png'
+                    ];
+                    function datav_svn_next() {
+                        var data_no = (parseInt($('#datav_svn_image').attr('data-no')) + 1) % datav_svn_images.length;
+                        $('#datav_svn_image').attr('src', datav_svn_images[data_no]).attr('data-no', data_no);
+                    }
+                    function datav_svn_prev() {
+                        var data_no = (parseInt($('#datav_svn_image').attr('data-no')) + datav_svn_images.length - 1) % datav_svn_images.length;
+                        $('#datav_svn_image').attr('src', datav_svn_images[data_no]).attr('data-no', data_no);
+                    }
+                </script>
+            </div>
+            -->
+
+            <div class="slide" id="datav-reports">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>其他各种</h1>
+                </header>
+                <section>
+                    <div>
+                        <ul style="font-size: 26px;">
+                            <li>各种统计报告：<a href="http://huaban.com/pins/63469185/">http://huaban.com/pins/63469185/</a></li>
+                            <li>K图：<a href="http://k.btc123.com/markets/btcchina/btccny">http://k.btc123.com/markets/btcchina/btccny</a></li>
+                            <li>百度统计流量研究院：<a href="http://tongji.baidu.com/data/">http://tongji.baidu.com/data/</a></li>
+                            <li>搜狐图表新闻：<a href="http://news.sohu.com/graphics/">http://news.sohu.com/graphics/</a></li>
+                            <li>网易数读：<a href="http://data.163.com/">http://data.163.com/</a></li>
+                            <li>新浪彩票走势图：<a href="http://zst.sina.aicai.com/">http://zst.sina.aicai.com/</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="datav-d3js-gallery">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1><a href="https://github.com/mbostock/d3/wiki/Gallery" onclick="$('#datav-d3js-iframe').attr('src','gally.html');return false;">D3.js Gallery</a></h1>
+                </header>
+                <section style="margin-left: 5px; margin-right: 5px;">
+                    <iframe id="datav-d3js-iframe" src="" class="center" style="height: 550px; width: 100%; border: none; overflow-y: scroll; overflow-x: hidden; text-align: center;"></iframe>
+                </section>
+            </div>
+            <div class="slide transitionSlide" id="chartools-title">
+                <section class="middle">
+                    <h2>Why D3.js / Web图表工具优缺点对比</h2>
+                    <p>灵活性，先进性，适应性，，文档，社区，授权许可。。。</p>
+                    <img src="images/d3js_64.png" />
+                </section>
+            </div>
+            <div class="slide transitionSlide" id="Div10">
+                <section class="middle">
+                    <h2>What D3.js / 数据可视化</h2>
+                    <p>数据可视化主要指在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <img src="images/d3js_64.png" />
+                </section>
+            </div>
+            <div class="slide transitionSlide" id="Div11">
+                <section class="middle">
+                    <h2>Why D3.js / 数据可视化</h2>
+                    <p>数据可视化主要指在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <img src="images/d3js_64.png" />
+                </section>
+            </div>
+            <div class="slide transitionSlide" id="Div12">
+                <section class="middle">
+                    <h2>Why D3.js / 数据可视化</h2>
+                    <p>数据可视化主要指在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <img src="images/d3js_64.png" />
+                </section>
+            </div>
+            <div class="slide" id="Div1"></div>
+            <div class="slide" id="Div2"></div>
+            <div class="slide" id="Div3"></div>
+            <div class="slide" id="Div4"></div>
+            <div class="slide" id="Div5"></div>
+            <div class="slide" id="Div6"></div>
+            <div class="slide" id="Div7"></div>
+            <div class="slide" id="Div8"></div>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="src/prettify/prettify.js" onload="prettyPrint();" defer></script>
+    <script src="js/utils.js"></script>
+    <script>
+        // Check if new appcache is available, load it, and reload page.
+        if (window.applicationCache) {
+            window.applicationCache.addEventListener('updateready', function (e) {
+                if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+                    window.applicationCache.swapCache();
+                    if (confirm('A new version of this site is available. Load it?')) {
+                        window.location.reload();
+                    }
+                }
+            }, false);
+        }
+    </script>
+</body>
+</html>
