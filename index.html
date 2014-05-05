@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
     <title>D3.js - Data-Driven Documents</title>
     <link href="src/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link id="prettify-link" href="src/prettify/prettify.css" rel="stylesheet" disabled />
+    <link id="prettify-link" href="src/prettify/prettify.css" rel="stylesheet" disabled="true" />
     <link href="styles/presentation.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="styles/common.css" rel="stylesheet" type="text/css" media="screen" />
     <link class="theme" href="styles/default.css" rel="stylesheet" type="text/css" media="screen" />
@@ -174,7 +174,8 @@
             <div class="slide" id="datav-d3js-gallery">
                 <header>
                     <span class="js">数据可视化</span>
-                    <h1><a href="https://github.com/mbostock/d3/wiki/Gallery" onclick="$('#datav-d3js-iframe').attr('src','gally.html');return false;">D3.js Gallery</a></h1>
+                    <h1><a href="https://github.com/mbostock/d3/wiki/Gallery" style="border-bottom: inherit;"
+                        onclick="$('#datav-d3js-iframe').attr('src','gally.html');return false;">D3.js Gallery</a></h1>
                 </header>
                 <section style="margin-left: 5px; margin-right: 5px;">
                     <iframe id="datav-d3js-iframe" src="" class="center" style="height: 550px; width: 100%; border: none; overflow-y: scroll; overflow-x: hidden; text-align: center;"></iframe>
@@ -187,28 +188,115 @@
                     <img src="images/d3js_64.png" />
                 </section>
             </div>
+            <div class="slide" id="Div13">
+                <header>
+                    <span class="js">Web图表工具优缺点对比</span>
+                    <h1>开源许可证</h1>
+                </header>
+                <section>
+                    <ul style="font-size: 26px; margin: 0;">
+                        <li>D3.js许可证：<a href="https://github.com/mbostock/d3/blob/master/LICENSE">Michael Bostock许可</a>/BSD许可</li>
+                    </ul>
+                    <div class="center">
+                        <a href="http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html" style="border-bottom: inherit;">
+                            <img src="images/how_to_choose_free_software_licenses.png" />
+                        </a>
+                    </div>
+                </section>
+            </div>
             <div class="slide transitionSlide" id="Div10">
                 <section class="middle">
-                    <h2>What D3.js / 数据可视化</h2>
-                    <p>数据可视化主要指在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <h2>What D3.js / 简介</h2>
+                    <p>Data-Driven Documents</p>
                     <img src="images/d3js_64.png" />
                 </section>
             </div>
             <div class="slide transitionSlide" id="Div11">
                 <section class="middle">
-                    <h2>Why D3.js / 数据可视化</h2>
-                    <p>数据可视化主要指在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <h2>What D3.js / 包括什么</h2>
+                    <p>Examples、Documentation、Source！</p>
                     <img src="images/d3js_64.png" />
                 </section>
             </div>
             <div class="slide transitionSlide" id="Div12">
                 <section class="middle">
-                    <h2>Why D3.js / 数据可视化</h2>
-                    <p>数据可视化主要指在借助于图形化手段，清晰有效地传达与沟通信息。</p>
+                    <h2>What D3.js / 可用&不可用</h2>
+                    <p>没有什么是万能的，关于D3的兼容性、动画</p>
                     <img src="images/d3js_64.png" />
                 </section>
             </div>
-            <div class="slide" id="Div1"></div>
+            <div class="slide transitionSlide" id="Div9">
+                <section class="middle">
+                    <h2>How D3.js / 基本使用方法</h2>
+                    <p></p>
+                    <img src="images/d3js_64.png" />
+                </section>
+            </div>
+            <div class="slide" id="Div1">
+                <header>
+                    <span class="js">基本使用方法</span>
+                    <h1>下载、使用</h1>
+                </header>
+                <section>
+                    <ul style="font-size: 26px; margin: 0;">
+                        <li>下载地址：<a href="https://github.com/mbostock/d3/releases/">D3.js Releases</a></li>
+                        <li>CDN：<a href="https://cdnjs.com/libraries/d3/">https://cdnjs.com/libraries/d3/</a></li>
+                        <li>使用：
+                            <pre style="font-size: initial;">
+&lt;script src="<b>http://d3js.org/d3.v3.min.js</b>" charset="utf-8">&lt;/script>
+&lt;script src="<b>http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.6/d3.min.js</b>" charset="utf-8">&lt;/script>
+&lt;script src="<b>/js/d3.v3.min.js</b>" charset="utf-8">&lt;/script>
+</pre>
+                        </li>
+                    </ul>
+
+
+                </section>
+            </div>
+            <div class="slide" id="Div14">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>站点监控/统计</h1>
+                </header>
+                <section>
+                    <div class="center">
+                        <img src="images/datav/webstatistics.png" style="height: 570px;" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="Div15">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>站点监控/统计</h1>
+                </header>
+                <section>
+                    <div class="center">
+                        <img src="images/datav/webstatistics.png" style="height: 570px;" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="Div16">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>站点监控/统计</h1>
+                </header>
+                <section>
+                    <div class="center">
+                        <img src="images/datav/webstatistics.png" style="height: 570px;" />
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="Div17">
+                <header>
+                    <span class="js">数据可视化</span>
+                    <h1>站点监控/统计</h1>
+                </header>
+                <section>
+                    <div class="center">
+                        <img src="images/datav/webstatistics.png" style="height: 570px;" />
+                    </div>
+                </section>
+            </div>
             <div class="slide" id="Div2"></div>
             <div class="slide" id="Div3"></div>
             <div class="slide" id="Div4"></div>
