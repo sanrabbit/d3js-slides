@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--<link href="../../styles/nv.d3.css" rel="stylesheet" />-->
+
+    <script src="../../js/jquery-2.1.0.min.js"></script>
+    <script src="../../js/d3.v3.min.js"></script>
+    <script src="../../js/nv.d3.js"></script>
+    <script defer src="main.js"></script>
+    <style>
+        body {
+            width: 1060px;
+            margin: 50px auto;
+        }
+
+        path {
+            stroke: #fff;
+        }
+
+            path:hover {
+                opacity: 0.9;
+            }
+
+        rect:hover {
+            fill: blue;
+        }
+
+        .axis {
+            font: 10px sans-serif;
+        }
+
+        .legend tr {
+            border-bottom: 1px solid grey;
+        }
+
+            .legend tr:first-child {
+                border-top: 1px solid grey;
+            }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .x.axis path {
+            display: none;
+        }
+
+        .legend {
+            margin-bottom: 76px;
+            display: inline-block;
+            border-collapse: collapse;
+            border-spacing: 0px;
+        }
+
+            .legend td {
+                padding: 4px 5px;
+                vertical-align: bottom;
+            }
+
+        .legendFreq, .legendPerc {
+            align: right;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id='dashboard'>
+    </div>
+    <div>
+        <!-- 气泡图，实时交易 -->
+        <svg id="trade1" width="600" height="400"></svg>
+    </div>
+
+    <div>
+        <!-- 堆栈图，按时间段，各商品销售金额堆栈 -->
+        <svg id="stack1" width="400" height="400"></svg>
+    </div>
+
+    <div>
+        <!-- 饼图，所有商品销售额的百分比 -->
+        <svg id="percent1" width="300" height="300"></svg>
+    </div>
+
+    <div>
+        <!-- 地图，销售额，地区占比，颜色区分区间 -->
+        <svg id="region1" width="400" height="400"></svg>
+    </div>
+
+
+    <div id='chart'>
+        <svg style='height:300px'> </svg>
+    </div>
+</body>
+</html>
